@@ -52,7 +52,7 @@ const Posts: React.FC<PostsProps> = ({message}) => {
             <h2>{post.theme}</h2>
             <p>Author: {post.username}</p>
             <p>{post.text}</p>
-          </div>
+            </div>
         )
       }
 
